@@ -1,4 +1,4 @@
-div, header, #about, #pets, #hobbies {
+div, header, #about, #pets, #hobbies, #purpleBack {
     background-color: rgb(77, 6, 77);
     color: white;
     padding: 20px;
@@ -81,4 +81,27 @@ tr, td, th {
 }
 tr:hover, td:hover, th:hover {
     background-color:rgb(21, 197, 115);
+}
+fieldset, #input {
+    border: solid 2px black;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(43, 226, 141);
+}
+p, label {
+    font-size: 1.5em;
+}
+input {
+    font-size: 1em;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 2px;
+}
+#button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 1.5em;
 }

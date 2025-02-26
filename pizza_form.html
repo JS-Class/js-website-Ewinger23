@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Form</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <header>
+    <h1><strong>Ethan Winger's Webpage</strong></h1>
+
+    <nav>
+         <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="courses.html">Courses</a></li>
+              <li><a href="pizza_form.html">Pizza</a></li>
+         </ul>
+    </nav>
+
+  </header>
+    <form id="pizza_form" action="" method="post">
+        <div id="purpleBack">
+            <!--Name-->
+            <h2>Please enter your name.</h2>
+            <div id="input"><p>Name: <input type="text" name="name" id="name" placeholder="Please enter name"></p></div>
+            <br>
+
+            <!--Address-->
+            <h2>Please enter your address.</h2>
+            <div id="input"><p>Address: <input type="text" name="address" id="address" placeholder="Please enter address"></p></div>
+            <br>
+
+            <!--Phone-->
+            <h2>Please enter your phone number.</h2>
+            <div id="input"><p>Phone Number: <input type="text" name="phone" id="phone" placeholder="Please enter phone"></p></div>
+            <br>
+
+            <!--Size-->
+            <h2>Please choose size of you pizza.</h2>
+            <p>
+                <fieldset>
+                    <label for="small">Small</label>
+                    <input type="radio" name="small" id="small" value="sm" checked>
+
+                    <label for="medium">Medium</label>
+                    <input type="radio" name="medium" id="medium" value="md">
+
+                    <label for="large">Large</label>
+                    <input type="radio" name="large" id="large" value="lg">
+                </fieldset>
+            </p>
+            <br>
+
+            <!--Toppings-->
+            <h2>Please select toppings you would like for your pizza.</h2>
+            <p>
+                <fieldset>
+                    <label for="pepperoni">Pepperoni</label>
+                    <input type="checkbox" name="pepperoni" id="pepperoni">
+
+                    <label for="sausage">Sausage</label>
+                    <input type="checkbox" name="sausage" id="sausage">
+
+                    <label for="bacon">Bacon</label>
+                    <input type="checkbox" name="bacon" id="bacon">
+
+                    <label for="ham">Ham</label>
+                    <input type="checkbox" name="ham" id="ham">
+
+                    <label for="tomato">Tomato</label>
+                    <input type="checkbox" name="tomato" id="tomato">
+                </fieldset>
+            </p>
+            <br>
+
+            <!--Notes-->
+            <h2>What are some notes you have for the cook? <br></h2>
+            <div id="input"><textarea name="notes" id="notes" cols="40" rows="10" placeholder="Please enter notes"></textarea></p></div>
+
+            <!--Submit and Clear Buttons-->
+            <div id="button">
+                <input type="button" id="submit" value="Submit">
+                <input type="button" id="clear" value="Clear">
+            </div>
+        </div>
+    </form>
+<script src="pizza.js"></script>
+</body>
+</html>
