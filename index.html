@@ -9,6 +9,7 @@
         <meta name="keywords" content="Ethan, Winger, Ethan Winger">
         <title>Ethan Winger's Webpage</title>
         <link rel="stylesheet" href="mystyle.css">
+        <link rel="stylesheet" href="lightbox/lightbox.css">
    </head>
 
    <!--Body-->
@@ -44,10 +45,10 @@
 
           <p>Here are a few images of my lovely cats.</p>   
 
-          <img src="images/Kittnes.jpg" alt="Kittens on a tarp." width="256" height="115">
-          <img src="images/Baby.jpg" alt="My cat Baby on a christmas reindeer." width="115" height="256">
-          <img src="images/North.jpg" alt="My cat North on a chair." width="115" height="256">
-          <img src="images/Squaker.jpg" alt="My cat Squakers on grass." width="256" height="115">
+          <a class="example-image-link" href="images/Kittnes.jpg" data-lightbox="example"><img src="images/Kittnes.jpg" alt="Kittens on a tarp." width="256" height="115"></a>
+          <a class="example-image-link" href="images/Baby.jpg" data-lightbox="example"><img data-lightbox="image-2" src="images/Baby.jpg" alt="My cat Baby on a christmas reindeer." width="115" height="256"></a>
+          <a class="example-image-link" href="images/North.jpg" data-lightbox="example"><img data-lightbox="image-3" src="images/North.jpg" alt="My cat North on a chair." width="115" height="256"></a>
+          <a class="example-image-link" href="images/Squaker.jpg" data-lightbox="example"><img data-lightbox="image-4" src="images/Squaker.jpg" alt="My cat Squakers on grass." width="256" height="115"></a>
         </div>
 
         <div id="hobbies">
@@ -63,6 +64,9 @@
 
         <!--Copyright-->
         <h6><footer>Copyright &copy; Ethan Winger</footer></h6>
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script src="lightbox/lightbox.js"></script>
+        
    </body>
 
 </html>

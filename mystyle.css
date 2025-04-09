@@ -1,4 +1,4 @@
-div, header, #about, #pets, #hobbies, #purpleBack {
+header, #about, #pets, #hobbies, #purpleBack {
     background-color: rgb(77, 6, 77);
     color: white;
     padding: 20px;
